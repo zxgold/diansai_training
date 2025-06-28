@@ -5,7 +5,7 @@ import math
 
 # --- 1. 全局硬件配置 ---
 # 红色激光笔[GPIO26,GPIO39(GND)]
-PIN_LASER = 26 # BCM 编号
+# PIN_LASER = 26 # BCM 编号
 # 定义GPIO控制器芯片的名称
 # 对于树莓派5，通常是 'gpiochip4'
 # 对于树莓派4及更早版本，通常是 'gpiochip0'
@@ -14,7 +14,7 @@ CHIP_NAME = 'gpiochip4'
 # 定义所有需要用到的引脚（BCM编号）
 PINS_MOTOR1 = [4, 14, 22, 23]  # [IN1, IN2, IN3, IN4]pul，pul
 PINS_MOTOR2 = [6, 12, 5, 27]   # [IN12, IN22, IN32, IN42]
-ALL_PINS = PINS_MOTOR1 + PINS_MOTOR2 + [PIN_LASER] 
+# ALL_PINS = PINS_MOTOR1 + PINS_MOTOR2 + [PIN_LASER] 
 ALL_PINS = PINS_MOTOR1 + PINS_MOTOR2
 
 # 全局变量来持有请求到的GPIO线路对象
