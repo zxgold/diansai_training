@@ -14,13 +14,8 @@ CHIP_NAME = 'gpiochip4'
 # 定义所有需要用到的引脚（BCM编号）
 PINS_MOTOR1 = [4, 14, 22, 23]  # [IN1, IN2, IN3, IN4]pul，pul
 PINS_MOTOR2 = [6, 12, 5, 27]   # [IN12, IN22, IN32, IN42]
-<<<<<<< HEAD
-ALL_PINS = PINS_MOTOR1 + PINS_MOTOR2 
-
-=======
 # ALL_PINS = PINS_MOTOR1 + PINS_MOTOR2 + [PIN_LASER] 
 # ALL_PINS = PINS_MOTOR1 + PINS_MOTOR2
->>>>>>> 4176ce444d0cced4fdf149034eab0e3c80770718
 
 # 全局变量来持有请求到的GPIO线路对象
 lines = None
